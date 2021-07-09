@@ -1,11 +1,11 @@
 import React from "react";
-import RecipeList from "./component/RecipeList";
+import Recipe from "./component/Recipe";
 import { list } from "./data";
 
 const App = () => {
   return (
     <>
-      <RecipeList data={list} />
+      <Recipe data={list} />
     </>
   );
 };
